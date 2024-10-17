@@ -1,0 +1,31 @@
+ Auth0 variables for FGA application
+# A long, secret value used to encrypt the session cookie
+# See https://github.com/Sambego/fga-drive-example?tab=readme#2-configure-auth0
+# for more info on how to generate this value
+AUTH0_SECRET=a long, randomly-generated string stored in env
+
+# Found in your application's settings on the Auth0 dashboard here:
+# https://manage.auth0.com
+AUTH0_BASE_URL=https://fantastic-sniffle-gwrqqj9wqqxcp4gr-3000.app.github.dev
+AUTH0_ISSUER_BASE_URL=https://ifernandez-playground-1.us.auth0.com
+AUTH0_CLIENT_ID=tGu15bdzzAy0jfejZUyqyr5GbW1VBdds
+AUTH0_CLIENT_SECRET=FmDhFW6ejqpowrpze4LkiqoLpaTMKXn43lhTaw6FmSAsZLu9wCOLJd3hsJA6eFzS
+
+# Okta FGA variables
+# Found in the Store settings on your Okta FGA dashboard: 
+# https://dashboard.fga.dev
+FGA_API_URL=https://api.us1.fga.dev
+FGA_STORE_ID=01J8JXBNSVNSTWPK324WVXHPGN
+FGA_AUTHORIZATION_MODEL_ID=01JAC5E5F5TGZAREMC21MYMAP2
+FGA_API_TOKEN_ISSUER=fga.us.auth0.com
+FGA_API_AUDIENCE=https://api.us1.fga.dev/
+FGA_CLIENT_ID=4bFOmxl6dZTP5XmCyB1x2tKJuYfSiz0D
+FGA_CLIENT_SECRET=JZUNpqcMkN_0BtMnpzjXJZn_dnSL2JCfZW_JlUCipjWmTwheGrr1FYZJksi9mktG
+
+# Vercel KV variables
+# Found under the storage tab on your Vercel dashboard: 
+# https://vercel.com/dashboard
+KV_URL="redis://default:AZfLAAIjcDExOWUyMjcyYTBlOTE0ZjQ0YjE4YzUzN2ZiYjI3ZGU1YnAxMA@advanced-fish-38859.upstash.io:6379"
+KV_REST_API_URL="https://advanced-fish-38859.upstash.io"
+KV_REST_API_TOKEN="AZfLAAIjcDExOWUyMjcyYTBlOTE0ZjQ0YjE4YzUzN2ZiYjI3ZGU1YnAxMA"
+KV_REST_API_READ_ONLY_TOKEN="ApfLAAIgcDGvaC5PCB0xlqMrRybkcyHA-4l_7QYS9Ww7wYl4v5WLCw"
